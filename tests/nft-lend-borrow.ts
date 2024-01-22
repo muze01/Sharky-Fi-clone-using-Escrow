@@ -731,7 +731,7 @@ describe("nft-lend-borrow", () => {
 
         const minimumBalanceForRentExemption =
             await provider.connection.getMinimumBalanceForRentExemption(41);
-
+            
         await program.methods
             .withdrawOffer(
                 new anchor.BN(minimumBalanceForRentExemption),

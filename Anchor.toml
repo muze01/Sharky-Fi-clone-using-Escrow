@@ -9,7 +9,7 @@ nft_lend_borrow = "6vt8t8Qm6ZQoe8k28HL7YLFVk1annuEdM4E8yrutQQZp"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
